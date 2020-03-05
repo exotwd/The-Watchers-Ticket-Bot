@@ -175,18 +175,18 @@ client.on('message', async (message) => {
                         .addField("Ninja Gen Website", "**Online** - :white_check_mark:", true)
                         .addField("Ninja Gen Panels", "**Online** - :white_check_mark:", true)
 			.addField("Ninja Gen Host", "**Online** - :white_check_mark:", true)
-			.addField("Ninja Gen Bot", "**Online** - :x:", true)
-                        .addField("API Response", "**Online** - :x:", true)
+			.addField("Ninja Gen Bot", "**Online** - :white_check_mark:", true)
+                        .addField("API Response", "**Online** - :white_check_mark:", true)
                         .addField("Auto Checker", "**Online** - :warning: (__**WIP**__)", true)
 			.addField("Blacklist", "**Online** - :white_check_mark:", true)
-                        .addField("Database #1 (Ninja Gen & Logs)", "**Online** - :x:", true)
-                        .addField("Database #2 (Account Stock)", "**Online** - :x:", true)
-                        .addField("Database #3 (Premium Users)", "**Online** - :x:", true)
+                        .addField("Database #1 (Ninja Gen & Logs)", "**Online** - :white_check_mark:", true)
+                        .addField("Database #2 (Account Stock)", "**Online** - :white_check_mark:", true)
+                        .addField("Database #3 (Premium Users)", "**Online** - :white_check_mark:", true)
                         //.addField("Status Updates", "Ninja Gen and ALL its dependencies are currently experiencing some minor issues and has caused the bot to crash, we will do our best to get it back online ASAP")
 			.setTimestamp()
                         .setFooter("Last Check:")
 		await message.channel.send(botStats).then(msg => {msg.delete(25000)});
-               message.channel.send("** DEV UPDATE |**" + ` <@${message.author.id}>` + " As we continue working round the clock to get Ninja Gens downtime resolved as soon as possible. We would like to update that the downtime is expected to last **UP TO** 48 Hours as the bot gives us extreme grief on attempts to resolve the errors 🤦🏻‍♂️\n\n Sorry For The Inconvenience\n - Ninja Gen Developers ☣️").then(msg => {msg.delete(35000)});
+               //message.channel.send("** DEV UPDATE |**" + ` <@${message.author.id}>` + " As we continue working round the clock to get Ninja Gens downtime resolved as soon as possible. We would like to update that the downtime is expected to last **UP TO** 48 Hours as the bot gives us extreme grief on attempts to resolve the errors 🤦🏻‍♂️\n\n Sorry For The Inconvenience\n - Ninja Gen Developers ☣️").then(msg => {msg.delete(35000)});
     }
 
 });	
